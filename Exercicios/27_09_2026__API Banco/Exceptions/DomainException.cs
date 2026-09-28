@@ -1,4 +1,4 @@
-namespace _27_09_2026__API_Banco
+namespace BancoAPI
 {
     public class DomainException : Exception
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _27_09_2026__API_Banco.Domains;
+namespace BancoAPI.Domains;
 
 public partial class tipo_usuario
 {

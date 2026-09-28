@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using _27_09_2026__API_Banco.Domains;
+using BancoAPI.Domains;
 
-namespace _27_09_2026__API_Banco.Contexts;
+namespace BancoAPI.Contexts;
 
 public partial class AppDbContext : DbContext
 {

@@ -1,10 +1,10 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using _27_09_2026__API_Banco.Domains;
+using BancoAPI.Domains;
 using Microsoft.IdentityModel.Tokens;
 
-namespace _27_09_2026__API_Banco
+namespace BancoAPI
 {
     public class TokenJWT
     {

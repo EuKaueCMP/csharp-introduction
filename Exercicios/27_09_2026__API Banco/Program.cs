@@ -1,4 +1,4 @@
-using _27_09_2026__API_Banco.Contexts;
+using BancoAPI.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
