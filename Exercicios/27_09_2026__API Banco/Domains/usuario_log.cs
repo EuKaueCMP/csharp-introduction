@@ -17,6 +17,8 @@ public partial class usuario_log
 
     public decimal saldo { get; set; }
 
+    public DateTime? data_alteracao { get; set; }
+
     public virtual tipo_alteracao tipo_alteracao { get; set; } = null!;
 
     public virtual usuario usuario { get; set; } = null!;

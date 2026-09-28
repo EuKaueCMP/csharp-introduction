@@ -5,11 +5,15 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Reflection.Metadata;
+using DotNetEnv;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //
 // Carregando string de conexao da env
+Env.Load();
+
+// Pegando a string de conexao
 var connectionString = Environment.GetEnvironmentVariable("DefaultConnection");
 
 // Conectando com o banco
