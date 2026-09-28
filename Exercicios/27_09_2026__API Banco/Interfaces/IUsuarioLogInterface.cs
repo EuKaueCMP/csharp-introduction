@@ -2,10 +2,10 @@ using BancoAPI.Domains;
 
 namespace BancoAPI
 {
-    public interface IUsuarioLogInterface
+    public interface IUsuarioLogRepository
     {
         public List<usuario_log> Listar();
-        public List<usuario_log> ObterPodId(int id);
-        public List<usuario_log> ObterPorIdUsuario(int usuarioId);
+        public usuario_log ObterPorId(int id);
+        public List<usuario_log> ObterPorUsuarioId(int usuarioId);
     }
 }
