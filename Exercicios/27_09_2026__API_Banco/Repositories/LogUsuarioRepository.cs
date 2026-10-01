@@ -3,7 +3,7 @@ using BancoAPI.Domains;
 
 namespace BancoAPI
 {
-    public class UsuarioLogRepository : IUsuarioLogRepository
+    public class LogUsuarioRepository : IUsuarioLogRepository
     {
         private readonly AppDbContext ctx;
         public UsuarioLogRepository(AppDbContext _ctx) => ctx = _ctx;
