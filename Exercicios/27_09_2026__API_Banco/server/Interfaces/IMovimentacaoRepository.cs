@@ -1,0 +1,12 @@
+using BancoAPI.Domains;
+
+namespace BancoAPI.Interfaces
+{
+    public interface IMovimentacaoRepository
+    {
+        public Task<List<movimentacao>> Listar();
+        public Task<List<movimentacao>> ObterPorUsuarioId(int usuarioId);
+        public Task<List<movimentacao>> ObterPorData(DateOnly data);
+        public Task<List<movimentacao>> ObterPorUsuarioIdData(int usarioId, DateOnly data);
+    }
+}
