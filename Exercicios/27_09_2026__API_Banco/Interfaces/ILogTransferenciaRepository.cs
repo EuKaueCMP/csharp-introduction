@@ -4,10 +4,10 @@ namespace BancoAPI
 {
     public interface ILogTransferenciaRepository
     {
-        public List<log_transferencia> Listar();
-        public log_transferencia ObterPorId(int id);
-        public List<log_transferencia> ObterPorUsuarioId(int usuarioId);
-        public List<log_transferencia> ObterPorStatusId(int statusId);
-        public List<log_transferencia> ObterPorUsuarioIdStatusId(int usuarioId, int statusId);
+        public Task<List<log_transferencia>> Listar();
+        public Task<log_transferencia> ObterPorId(int id);
+        public Task<List<log_transferencia>> ObterPorUsuarioId(int usuarioId);
+        public Task<List<log_transferencia>> ObterPorStatusId(int statusId);
+        public Task<List<log_transferencia>> ObterPorUsuarioIdStatusId(int usuarioId, int statusId);
     }
 }
