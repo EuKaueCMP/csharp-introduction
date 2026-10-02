@@ -1,9 +1,0 @@
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.AssemblyInfoInputs.cache
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.AssemblyInfo.cs
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.csproj.CoreCompileInputs.cache
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.RazorAssemblyInfo.cache
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.RazorAssemblyInfo.cs
-C:\Users\KaueCMP2\Desktop\mvc\SistemaJogo\SistemaJogosMVC\obj\Debug\net8.0\SistemaJogosMVC.sourcelink.json
