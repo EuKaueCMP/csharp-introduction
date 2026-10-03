@@ -16,14 +16,7 @@ namespace BancoAPI.Services
             if (logs == null)
                 throw new DomainException("Nenhum log de transfenrencia encontrado!");
 
-            return logs.Select(nl => new ListarLogTransferenciaDTO
-            {
-                log_id = nl.log_id,
-                transferencia_id = nl.transferencia_id,
-                status_id = nl.status_id,
-                descricao_log = nl.descricao_log,
-                data_alteracao = nl.data_alteracao
-            }).ToList();
+            return logs.Select(nl => ConvertToDto.LogTransferenciaToDto(nl)).ToList();
         }
 
         public async Task<List<ListarLogTransferenciaDTO>> ObterPorUsuarioId(int usuarioId)

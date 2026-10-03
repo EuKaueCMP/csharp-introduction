@@ -13,6 +13,7 @@ namespace BancoAPI.Repositories
         public Task<List<tipo_usuario>> Listar() => _ctx.tipo_usuario.ToListAsync();
 
         public async Task<tipo_usuario> ObterPorId(int id) => await _ctx.tipo_usuario.FindAsync(id);
+        public async Task<bool> ObterPorNome(string nome) =>  await _ctx.tipo_alteracao.AnyAsync(ta => ta.nome_alteracao == nome);
 
         public void Adicionar(tipo_usuario tipoUsu)
         {

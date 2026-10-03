@@ -12,6 +12,7 @@ namespace BancoAPI.Repositories
 
         public Task<List<tipo_movimentacao>> Listar() => _ctx.tipo_movimentacao.ToListAsync();
         public async Task<tipo_movimentacao> ObterPorId(int tipoId) => await _ctx.tipo_movimentacao.FindAsync(tipoId);
+        public async Task<bool> ObterPorNome(string nome) =>  await _ctx.tipo_alteracao.AnyAsync(ta => ta.nome_alteracao == nome);
 
         public void Adicionar(tipo_movimentacao tipoMovimentacao)
         {

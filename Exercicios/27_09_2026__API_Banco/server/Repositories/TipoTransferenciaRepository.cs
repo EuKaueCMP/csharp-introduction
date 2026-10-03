@@ -5,13 +5,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BancoAPI.Repositories
 {
-    public class TipoTransferenciaRepository : ITipoTranferenciaRepository
+    public class TipoTransferenciaRepository : ITipoTransferenciaRepository
     {
         private readonly AppDbContext _ctx; 
         public TipoTransferenciaRepository(AppDbContext ctx) => _ctx = ctx;
 
         public Task<List<tipo_transferencia>> Listar() => _ctx.tipo_transferencia.ToListAsync();
         public async Task<tipo_transferencia> ObterPorId(int transferenciaId) => await _ctx.tipo_transferencia.FindAsync(transferenciaId);
+        public async Task<bool> ObterPorNome(string nome) =>  await _ctx.tipo_alteracao.AnyAsync(ta => ta.nome_alteracao == nome);
         
         public void Adicionar(tipo_transferencia tipoTransferencia)
         {
